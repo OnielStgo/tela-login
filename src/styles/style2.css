@@ -1,0 +1,79 @@
+.tela-fundo {
+    background: linear-gradient(to right, rgb(58, 151, 238), rgb(126, 66, 194));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    height: 100vh;
+    margin: 0;
+}
+
+.card-login {
+    background-color: white;
+    width: 500px;
+    height: 800px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#card-login-header {
+    width: 300px;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px
+}
+
+#inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#password-options {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#lembrar {
+    width: 30px;
+    height: 30px;
+    margin: 0;
+}
+
+#recuperar-senha {
+    text-decoration: underline;
+}
+
+input {
+    width: 300px;
+    height: 50px;
+    border: 1px solid #7e7979;
+    outline: none; /*Remove a borda padrão ao focar */
+}
+
+button {
+    background: linear-gradient(to right, rgb(124, 185, 241), rgb(60, 0, 128));
+    width: 300px;
+    padding: 16px;
+    border: none;
+    color: white;
+    font-size: medium;
+}
+
+p {
+    color: #7e7979;
+}
+
+span {
+    color: blueviolet;
+}
